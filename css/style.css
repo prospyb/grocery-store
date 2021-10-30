@@ -1,0 +1,112 @@
+body {
+  background-color: rgba(66, 135, 245, 0.4);
+  font-size: 1.15em;
+  text-align: justify;
+  font-family: "Andada Pro", serif;
+}
+
+input,
+textarea {
+  display: block;
+  margin: 10px;
+}
+
+#title {
+  color: rgb(200, 186, 3);
+  font-family: "roboto", sans-serif;
+}
+
+.subtitle {
+  color: rgb(145, 125, 67);
+  font-family: "roboto", sans-serif;
+}
+
+#service-image {
+  height: 400px;
+  width: 70vw;
+  background: radial-gradient(circle, red 20%, blue 40%, green 55%);
+  border: 10px solid rgb(28, 28, 79);
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.italic {
+  font-style: italic;
+}
+
+#about-us-image {
+  height: 300px;
+  width: 60%;
+  border: 10px solid rgb(28, 28, 79);
+  margin: 80px 40px;
+  float: right;
+}
+
+.site-table {
+  display: inline-block;
+}
+
+.container {
+  /* background-color: rgb(250, 250, 250); */
+  background-image: url(../img/img-1.jpg);
+  margin: 10px;
+  height: 300px;
+
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center;
+}
+
+.container-item {
+  background-color: rgb(36, 130, 39);
+  margin: 20px;
+  color: black;
+  font-size: 25px;
+  text-align: center;
+
+  width: 70px;
+  line-height: 50px;
+  margin: 10px;
+}
+
+.grid-container {
+  background-color: rgb(250, 250, 250);
+  margin: 10px;
+  height: 400px;
+
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+}
+
+.grid-item {
+  color: black;
+  font-size: 25px;
+  text-align: center;
+
+  width: 70px;
+  line-height: 40px;
+  margin: 10px;
+}
+
+.submit-button {
+  margin: 20px 10px;
+  padding: 10px 15px;
+  border: none;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  background: rgb(89, 150, 255);
+  border-radius: 50px;
+  /* width: 150px; */
+}
+
+.submit-button:hover {
+  background: rgb(147, 187, 255);
+}

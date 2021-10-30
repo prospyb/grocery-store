@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Mukta, sans-serif;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul a {
+  display: block;
+  background: black;
+  padding: 20px;
+  font-size: 17px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  transition: color 1s ease, background 1s ease, padding 1s ease;
+}
+
+nav ul a:hover {
+  background: grey;
+  color: #e0e0ce;
+  padding-left: 30px;
+}
